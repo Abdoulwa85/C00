@@ -1,4 +1,3 @@
 #!/bin/bash
-# ce sript affiche la date et l'heure actuelles
-‎echo " la date et l'heure actuelle est :"
-‎date "+%Y-%m-%d %H:%M:%S"
+# ce sript affiche la date et l'heure actuelles au format YYYY-MM-DD HH:MM:SS
+echo $(date +"%Y-%m-%d %H:%M:%S")
